@@ -1,0 +1,139 @@
+/* ===== GLOBAL ===== */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+    /* Better depth background */
+    background: radial-gradient(circle at top, #1e3a8a 0%, #020617 70%);
+    color: white;
+}
+
+/* Center layout */
+.container {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ===== TITLE ===== */
+h1 {
+    margin-top: 50px;
+    font-size: 2.8rem;
+    font-weight: 600;
+
+    width: 100%;
+    text-align: center;
+
+    color: #e0f2fe;
+
+    /* Softer glow */
+    text-shadow: 0 0 8px #38bdf8;
+}
+
+/* Emoji spacing */
+.icon {
+    margin-right: 8px;
+}
+
+/* ===== INPUT BOX ===== */
+.add-box {
+    margin-top: 30px;
+    padding: 25px;
+    width: 360px;
+
+    border-radius: 20px;
+
+    background: rgba(30, 41, 59, 0.95);
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Inputs */
+input {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+    background: #0f172a;
+    color: #e2e8f0;
+
+    transition: 0.3s;
+}
+
+/* Input hover + focus */
+input:hover,
+input:focus {
+    transform: scale(1.03);
+    box-shadow: 0 0 12px #38bdf8;
+}
+
+/* ===== BUTTON ===== */
+button {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+
+    background: linear-gradient(45deg, #38bdf8, #6366f1);
+    color: white;
+
+    font-weight: 500;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* Button hover */
+button:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 20px #38bdf8, 0 0 30px #6366f1;
+}
+
+/* ===== EXPENSE LIST ===== */
+#expense-list {
+    margin-top: 30px;
+}
+
+/* Expense cards */
+.expense {
+    margin: 20px auto;
+    padding: 15px;
+    width: 360px;
+
+    border-radius: 15px;
+
+    background: #1e293b;
+
+    border: 1px solid rgba(255,255,255,0.05);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    transition: 0.3s;
+}
+
+/* Card hover */
+.expense:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 10px 25px rgba(56,189,248,0.3);
+}
+
+/* Delete button */
+.expense button {
+    background: #ef4444;
+}
+
+/* Delete hover */
+.expense button:hover {
+    background: #dc2626;
+    box-shadow: 0 0 15px red;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expense Tracker</title>
+
+    <!-- Stylish Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+<h1>
+    <span class="icon">💰</span>Expense Tracker
+</h1>
+
+        <!-- Input Box -->
+        <div class="add-box">
+            <input type="text" id="title" placeholder="Title (e.g. Pizza)">
+            <input type="number" id="amount" placeholder="Amount (₹)">
+            <input type="text" id="category" placeholder="Category (Food, Travel)">
+            <button onclick="addExpense()">Add</button>
+        </div>
+
+        <!-- Expense List -->
+        <div id="expense-list"></div>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+</html>
