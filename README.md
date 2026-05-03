@@ -1,4 +1,4 @@
-# 💰 Personal Expense Tracker
+# 💰 Personal Expense Tracker with Dashboard
 
 A simple and modern expense tracking web application built using Flask, JavaScript, and SQLite. It allows users to add, manage, and view their daily expenses with a clean and interactive interface.
 
@@ -57,6 +57,16 @@ python app.py
 ```
 http://127.0.0.1:5000/
 ```
+
+---
+---
+
+## 💼 Project Highlights
+
+- Demonstrates full-stack web development using Flask
+- Uses REST API for dynamic data handling
+- Implements real-time UI updates using JavaScript
+- Designed with focus on clean UI/UX principles
 
 ---
 
